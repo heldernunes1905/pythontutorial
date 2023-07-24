@@ -20,7 +20,7 @@ def test_email(your_pattern):
             print("Pass")
 
 #? means one ocurrence
-#[-a-zA-Z0-9.'?{}] getting every single letter and character
+#[-a-zA-Z0-9.'?{}] getting every single letter and character, if i wanted to search for a ',' I would add there
 #\w means it will find any character after
 #\.means there is a . after
 pattern = r"\"?([-a-zA-Z0-9.'?{}]+@\w+\.\w+)\"?"
