@@ -4,6 +4,10 @@ import random
 #all its capable of doing is restoring a certain point, for example when its done with current iteration yield will be able to restore that comand
 #function is paused when done and can be resumed again after the command is called, this way several values can be sent individually instead of being sent as a list.
 
+#yield works the same as a return, the difference is that is doesnt store anything, it returns the value dataset as it is and then it continues the operation
+#if in the example below with finobacci i put value of a as 2 it will return 2 and then continue the function, its a quick save that resumes operation as soon as the value is sent
+#it keeps going until its told to stop
+
 def lottery():
     # returns 6 numbers between 1 and 40
     for i in range(6):
